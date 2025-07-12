@@ -1,3 +1,112 @@
-body{
-    background-color: black;
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
+.Common-container{
+   max-width: 1280px;
+   margin: auto;
+}
+
+.Common-btn{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border-radius: 6px;
+    height: 50px;
+    width: 168px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid #FF589B;
+    margin-top: 8px;
+}
+
+/* Navigation bar */
+
+nav{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+nav ul a li{
+    list-style: none;
+    color: #707070;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav input{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 66px;
+    padding: 12px;
+    width: 500px;
+}
+
+.parent-of-search{
+    position: relative;
+}
+
+.parent-of-search i{
+    position: absolute;
+    right: 20px;
+    bottom: 14px;
+    color: #BABABA;
+}
+
+
+/* TV Advertise */
+
+.tv-banner{
+    border: 1px solid black;
+    display: flex;
+    margin: 65px auto;
+    background-color: #FEEAE9;
+    align-items: center;
+    justify-content: space-between;
+    gap: 152px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.tv-description h2{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #1F1F1F;
+}
+
+.tv-description p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #4E4E4E;
+}
+
+.tv-description span{
+    font-size: 41px;
+    font-weight: 500;
+     margin-bottom: 165px;
+    color: #FF136F;
+}
+
+.tv-banner img{
+    height: 378px;
+    width: 402px;
+}
+
+/* Catagory-part */
