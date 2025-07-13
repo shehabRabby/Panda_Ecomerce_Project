@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .Common-container{
@@ -23,10 +24,16 @@
     margin-top: 8px;
 }
 
+.category-banner h2{
+  font-size: 36px;
+  font-weight: 54px;
+  color: #1F1F1F;
+  margin: 24px 0;
+}
+
 /* Navigation bar */
 
 nav{
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +79,6 @@ nav input{
 /* TV Advertise */
 
 .tv-banner{
-    border: 1px solid black;
     display: flex;
     margin: 65px auto;
     background-color: #FEEAE9;
@@ -100,7 +106,7 @@ nav input{
 .tv-description span{
     font-size: 41px;
     font-weight: 500;
-     margin-bottom: 165px;
+    margin-bottom: 165px;
     color: #FF136F;
 }
 
@@ -110,3 +116,170 @@ nav input{
 }
 
 /* Catagory-part */
+.category-card{
+    width: 360px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 48px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.236);
+}
+
+.category-card:nth-child(1){
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.category-card:nth-child(2){
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.category-card:nth-child(3){
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+
+.category-card img{
+    width: 100%;
+    height: 92px;
+}
+
+.category-card h3{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500
+}
+
+.category-container{
+    display: flex;
+    gap: 26px;
+}
+
+
+
+
+/*  Shoes section here */
+.shoes-bag-container{
+    background-color: #F4F4F4;
+    height: 1486px;
+    margin-top: 100px;
+}
+
+.shoes-card figure img{
+    height: 210px;
+    width: 300px;
+}
+.shoes-card{
+    width: 360px;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.183);
+}
+
+.shoes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+.shoes-card p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+    color:#4E4E4E;
+}
+
+.shoes-card span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.shoes-card button{
+    background: black;
+    border:none;
+    color: white;
+    font-weight: 300;
+}
+
+
+.shoes-collection{
+    display: flex;
+    gap: 20px;
+}
+
+.title-of-shoes{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 30px;
+   padding-top: 50px;
+   align-items: center;
+}
+
+.title-of-shoes h2{
+   font-weight: 600;
+   font-size: 36px;
+   color: #1F1F1F;
+} 
+
+.title-of-shoes p{
+   font-weight: 500;
+   font-size: 20px;
+   color: #FF9D00;
+   cursor: pointer;
+} 
+
+/* Footer section */
+
+.contact{
+  background-color: #FFF2F1;
+  margin: 75px auto;
+  height: 455px;
+  text-align: center;
+  padding: 150px ;
+}
+
+.footer-btn{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 55px;
+    width: 160px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-contact h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+.footer-contact p{
+    font-weight: 300;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.email-button input{
+    width: 510px;
+    height: 55px;
+    border: none;
+    margin-top: 8px;
+    padding: 0 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.email-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
